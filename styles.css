@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+* {
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+body {
+  height: 100vh;
+  background-size:cover;
+  background-image: url('bgd07.jpg');
+  background-position: center top;
+  background-repeat: no-repeat;
+
+}    
+.prof {
+
+  /*
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+
+
+  width: 300px;
+  height: 190px;
+  */
+
+  width: 280px;
+  height: 140px;
+
+
+  border-radius: 8px;
+  margin-bottom: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile {
+  width: 70px;
+  height: 70px;
+
+  border-radius: 100%;
+
+  border: 1px solid white;
+
+  background-image: url('NOKSIILL-01.png');
+  background-repeat: no-repeat;
+  background-size: 75px 75px;
+  background-position: center;
+
+}
+.profile_name {
+    color: white;
+    font-size: 15px;
+    size: 15px;
+
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.profile_cmt {
+    color: white;
+    font-size: 15px; 
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.tag {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    size: 15px;
+
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.profile_tags {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 13px;
+}
+.wrap {
+    width: 300px;
+    margin: 10px auto 0px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.big_btn > a {
+    width: 280px;
+    height: 35px;
+
+    border-radius: 12px ;
+
+
+
+
+    background: rgba(255, 255, 255, 0.0);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px); /*mac*/
+    -moz-backdrop-filter: blur(3px); /*파이어폭스*/
+    -o-backdrop-filter: blur(3px);  /*오페라*/
+
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    /*
+    font-weight: bold;
+    */
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    border: 1px solid white;
+}
+.source {
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+
+    margin-top: 5px;
+}
+
+.big_btn > a:hover {
+    background-color: white;
+    color: #5b587b;
+}
+            
